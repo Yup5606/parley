@@ -232,9 +232,9 @@
   opacity: 0;
 }
 
-.company-visual[data-bg="company"] .company-mask {background-image: url("../images/company/company_1.jpg");}
-.company-visual[data-bg="vision"] .company-mask {background-image: url("../images/company/company_2.png");}
-.company-visual[data-bg="value"] .company-mask {background-image: url("../images/company/company_3.jpg");}
+.company-visual[data-bg="company"] .company-mask {background-image: url("../images/company/company_1.webp");}
+.company-visual[data-bg="vision"] .company-mask {background-image: url("../images/company/company_2.webp");}
+.company-visual[data-bg="value"] .company-mask {background-image: url("../images/company/company_3.webp");}
 .company-tab {
   display: flex;
   justify-content: center;

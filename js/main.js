@@ -45,15 +45,15 @@ $(function(){
   const companyData = {
     company: {
       desc: "바다를 향한 새로운 정의를 통해 인류와 자연이 공존하는 지속 가능한 산업의 토대를 구축합니다.",
-      img: "./images/company/company_1.jpg"
+      img: "./images/company/company_1.webp"
     },
     vision: {
       desc: "혁신적인 전략으로 해양 환경을 보호하고 지속 가능한 미래를 만듭니다.",
-      img: "./images/company/company_2.png"
+      img: "./images/company/company_2.webp"
     },
     value: {
       desc: "책임과 투명성을 기반으로 새로운 환경 기준을 제시합니다.",
-      img: "./images/company/company_3.jpg"
+      img: "./images/company/company_3.webp"
     }
   };
 
