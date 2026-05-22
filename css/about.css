@@ -271,19 +271,19 @@
 .collabo-logo-list {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 10px;
+  gap: 5px;
   list-style: none;
 }
 .collabo-logo-list li {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 60px; /* Safari 14 이하 fallback */
   padding: 10px;
   border-radius: 8px;
-  transition: all var(--speed);
   background-color: var(--gray-color);
-  aspect-ratio: 1.4 / 1;
-  min-height: 60px; /* Safari 14 이하 fallback */
+  transition: all var(--speed);
+  /* aspect-ratio: 1.4 / 1; */
 }
 .collabo-logo-list img {
   max-width: 80%;
