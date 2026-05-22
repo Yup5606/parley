@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 /* 기본, 모바일 우선 */
 
 /* 1. mo tiny */
@@ -44,11 +44,11 @@
   .vision-overview-sec {
     padding: 40px 20px 80px;
   }
-  .visiontitle {
+  .vision-title {
     gap: 20px;
     margin-bottom: 60px;
   }
-  .visiontitle .title-text {
+  .vision-title .title-text {
     font-size: 34px;
   }
   .vision-title img {
@@ -302,7 +302,7 @@
   }
   .strategy-card-txt {
     padding: 60px 20px;
-    text-align-last: left;
+    text-align: left;
   }
   .card-subject {
     font-size: 32px;
@@ -324,7 +324,7 @@
   .history-intro {
     flex: 1;
     max-width: 600px;
-    min-height: 300;
+    min-height: 300px;
     text-align: left;
     /* padding-left: 60px; */
   }

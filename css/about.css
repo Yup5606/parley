@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 /* 1. 웹폰트 연결 */
 @import url('webfonts.css');
 
@@ -81,7 +81,7 @@
 }
 .card-value {
   font-size: 22px;
-  font-weight: 700;;
+  font-weight: 700;
 }
 .card-txt {
   font-size: 18px;
@@ -280,9 +280,10 @@
   justify-content: center;
   padding: 10px;
   border-radius: 8px;
-  transition: all var(-speed);
+  transition: all var(--speed);
   background-color: var(--gray-color);
   aspect-ratio: 1.4 / 1;
+  min-height: 60px; /* Safari 14 이하 fallback */
 }
 .collabo-logo-list img {
   max-width: 80%;
@@ -353,7 +354,7 @@
   height: 500px;
 }
 .ceo-bg {
-  position: relative;
+  position: absolute; /* Safari flex+absolute 레이아웃 오류 수정 */
   top: 0;
   left: 0;
   width: 100%;
@@ -391,7 +392,7 @@
   margin-bottom: 20px;
   text-transform: uppercase;
   word-break: keep-all;
-  letter-spacing: -0.05em
+  letter-spacing: -0.05em;
 }
 .ceo-text-ko {
   width: 300px;
@@ -405,5 +406,3 @@
   font-weight: 700;
   margin-top: 10px;
 }
-
-
