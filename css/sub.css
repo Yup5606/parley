@@ -40,14 +40,14 @@
   flex-shrink: 1;
 }
 .sub-nav-container {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 15px;
   padding: 0px 5px;
   border-radius: 36px;
   background: linear-gradient(to right, #0d1653 0%,#1f4f8b 100%);
-  width: fit-content;
+  width: auto;
   margin: 0 auto;
   height: 35px;
   box-sizing: border-box;
@@ -57,14 +57,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 0;
+  width: 135px;
   flex: 0 0 135px; 
   /* gap: 10px; */
 }
 .depth1-item:before {
   content: '\e88a';
   position: absolute;
-  display: flex;
+  display: block;
   align-items: center;
   left: 10px;
   line-height: 1;
