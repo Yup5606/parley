@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parley - For the Oceans</title>
+  <link rel="icon" href="/images/favicon.svg" type="image/png">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/common_rwd.css">
+  <link rel="stylesheet" href="css/sub.css">
+  <link rel="stylesheet" href="css/sub_rwd.css">
+  <link rel="stylesheet" href="css/coming_page.css">
+
+  <script src="js/common.js"></script>
+</head>
+<body>
+  <section class="coming-sec">
+    <div class="coming-bg"></div>
+
+    <div class="coming-content">
+      <span class="coming-label">PARLEY PROJECT</span>
+      <h2>Coming Soon</h2>
+      <p>
+        지속 가능한 경험을 위한<br />
+        새로운 프로젝트 아카이브를 준비중입니다.
+      </p>
+      <button type="button" class="coming-btn" onclick="goBack()">
+        Go Back
+      </button>
+
+    </div>
+  </section>
+
+</body>
+  <script>
+    function goBack() {
+      if (history.length > 1) {
+        history.back();
+      } else {
+        location.href = "index.html";
+      }
+    }
+  </script>
+</html>

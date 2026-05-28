@@ -1,0 +1,127 @@
+.coming-sec {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  background: #061826;
+}
+
+.coming-bg {
+  position: absolute;
+  inset: 0;
+  background: 
+    linear-gradient(rgba(6, 24, 38, 0.35), rgba(6, 24, 38, 0.8)),
+    url("../images/coming/parley-coming-bg.webp") no-repeat center / cover;
+  animation: bgScale 8s ease-in-out infinite alternate;
+}
+
+.coming-content {
+  position: relative;
+  z-index: 1;
+  padding: 0 20px;
+}
+
+.coming-label {
+  display: inline-block;
+  margin-bottom: 18px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  opacity: 0.8;
+}
+
+.coming-content h2 {
+  margin-bottom: 50px;
+  font-family: "Wild Youth";
+  font-size: 5rem;
+  font-weight: 100;
+  line-height: 1;
+}
+
+.coming-content p {
+  margin-bottom: 40px;
+  font-size: 1.2em;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+.coming-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  padding: 0 28px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 999px;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.coming-btn:hover {
+  color: var(--primary-color);
+  background: #fff;
+}
+
+@keyframes bgScale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+/* 태블릿 */
+@media (min-width: 768px) {
+  .coming-label {
+    margin-bottom: 22px;
+    font-size: 1.3rem;
+  }
+
+  .coming-content h2 {
+    margin-bottom: 60px;
+    font-size: 8rem;
+  }
+
+  .coming-content p {
+    margin-bottom: 48px;
+    font-size: 1.6rem;
+  }
+
+  .coming-btn {
+    height: 54px;
+    padding: 0 34px;
+    font-size: 1.5rem;
+  }
+}
+
+/* PC */
+@media (min-width: 1280px) {
+  .coming-label {
+    margin-bottom: 26px;
+    font-size: 1.4rem;
+  }
+
+  .coming-content h2 {
+    margin-bottom: 70px;
+    font-size: 10rem;
+  }
+
+  .coming-content p {
+    margin-bottom: 56px;
+    font-size: 1.3rem;
+  }
+
+  .coming-btn {
+    height: 58px;
+    padding: 0 40px;
+    font-size: 1.4rem;
+  }
+}
